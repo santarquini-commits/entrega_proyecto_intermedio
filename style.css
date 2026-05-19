@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primario:#652BDF;
+    --color-secunadrio:#E2D2FF;
+    --fuente-primaria:font-family: "Inter", sans-serif;
+}
+.header-navegacion{
+    height: 83px; ;
+    width: 1269px;
+    background-color: red    ;
+}
+.menu-navegacion{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+min-height: 82px;
+padding: 16px;
+width: 100%;
+background: white;
+
+}
+.logo{
+    margin: 0 20px 0;
+    max-height: 37px;
+    min-width: 140px;
+    box-sizing: border-box;
+}
+.header-menu{
+    display: flex;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+.estilo-btn{
+    align-items: center;
+    border-radius: 50px;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.5rem;
+    margin: 0 4px;
+    min-height: 41px;
+    padding: 6px 24px;
+    box-sizing: border-box;
+    font-family: var(--fuente-primaria);
+    color: #2b2b2b;
+}
+.header-menu_texto:hover{
+    background-color: #e4d7ff;
+    color: #360c72;
+    cursor: pointer;
+}
+.header-boton{
+    font-family: var(--fuente-primaria);
+    gap: 2px;
+    justify-content: end;
+    margin-left: auto;
+    align-items: center;
+    list-style: none;
+    box-sizing: border-box;
+}
+.boton{
+    box-sizing: border-box;
+    cursor: pointer;
+    font-style: normal;
+    letter-spacing: .2857em;
+    min-width: 160px;
+    outline: 0;
+    position: relative;
+    text-decoration: none;
+    transition: all .4s ease-in-out 0s;
+}
+.boton-primario{
+    background-color: transparent;
+    border:solid var(--color-primario)
+}

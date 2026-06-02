@@ -29,6 +29,10 @@ body {
 
 }
 
+.hamburguesa{
+    display: none;
+}
+
 .menu-navegacion {
     display: flex;
     align-items: center;
@@ -82,7 +86,7 @@ body {
 
 .header-boton {
     font-family: var(--fuente-primaria);
-    gap: 2px;
+    gap: 16px;
     justify-content: end;
     margin-left: auto;
     align-items: center;
@@ -94,7 +98,6 @@ body {
 .boton {
     font-family: var(--fuente-primaria);
     box-sizing: border-box;
-    cursor: pointer;
     font-style: normal;
     letter-spacing: .2857em;
     min-width: 160px;
@@ -110,7 +113,7 @@ body {
     background-color: transparent;
     border: 1px solid var(--color-primario);
     color: var(--color-primario);
-
+    
 }
 
 .boton-secundario {
@@ -249,7 +252,6 @@ header h1 {
     max-width: 1022px;
     margin: 90px auto 0 auto;
     background-color: #fff;
-    /* fondo blanco */
     border-radius: 16px;
     padding: 32px;
 }
@@ -269,19 +271,16 @@ header h1 {
 .texto-qr-blanca h3 {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--color-primario);
     margin-bottom: 12px;
 }
 
 .texto-qr-blanca p {
     font-size: 1rem;
-    color: var(--color-primario);
     margin-bottom: 20px;
 }
 
 .boton-qr-blanca {
     background-color: #fff;
-    color: var(--color-primario);
     padding: 10px 20px;
     border-radius: 30px;
     text-decoration: none;
@@ -341,20 +340,17 @@ header h1 {
     align-items: flex-start;
     text-align: left;
     margin-bottom: 12px;
-    color: var(--color-primario);
 }
 
 .texto-terminal h3 {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--color-primario);
     margin-bottom: 12px;
 }
 
 
 .texto-terminal p {
     font-size: 1rem;
-    color: var(--color-primario);
     margin-bottom: 20px;
 }
 
@@ -466,7 +462,6 @@ header h1 {
     .menu-navegacion {
         position: relative;
         justify-content: center;
-        /* centramos el logo */
         align-items: center;
         padding: 12px 20px;
     }
@@ -494,7 +489,6 @@ header h1 {
         left: 20px;
         font-size: 1.8rem;
         cursor: pointer;
-        color: var(--color-primario);
         display: block;
     }
 
